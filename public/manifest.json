@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "wordly",
+  "author": "Lucas Odell",
+  "version": "1.0.1",
+  "description": "This extension displays a semi-sesquipedalian word with a definition everytime you open a new tab. Created by Lucas Odell",
+  "icons": {
+    "16": "smalllogo.ico",
+    "48": "mediumlogo.ico",
+    "128": "largelogo.ico"
+},
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
